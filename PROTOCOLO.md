@@ -1,6 +1,6 @@
 # Protocolo do Projeto Final – MCEQ 12576
 
-**Registrado em:** 15/11/2026, antes de qualquer análise das latências (só a estrutura e a contagem de pares da base foram inspecionadas).
+**Registrado em:** 15/11/2026 e aprovado pela equipe em 16/11/2026, antes de qualquer análise das latências (só a estrutura e a contagem de pares da base foram inspecionadas).
 
 **EQUIPE / MEMBROS:** Arthur Guarniz Castro Sebastian · Lucas Anelli Bissi
 
