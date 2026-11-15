@@ -1,0 +1,36 @@
+framework,N,motivo
+aspcore-mono-pg,1,sem latencia
+aspcore-mono-pg,10,sem latencia
+aspcore-mono-pg,20,sem latencia
+http4k,1,erros
+http4k,10,erros
+http4k,20,erros
+http4k-graalvm,1,erros
+http4k-graalvm,10,erros
+http4k-graalvm,20,erros
+http4k-jetty,10,erros
+http4k-jetty,20,erros
+http4k-jettyloom-jdbc,20,erros
+http4k-sunhttploom,1,erros
+http4k-sunhttploom,10,erros
+http4k-sunhttploom,20,erros
+lithium,1,erros
+lithium,10,erros
+lithium,20,erros
+lithium-postgres,10,erros
+lithium-postgres,20,erros
+lithium-postgres-beta,1,erros
+lithium-postgres-beta,10,erros
+lithium-postgres-beta,20,erros
+microdot-raw,1,erros
+microdot-raw,10,erros
+microdot-raw,20,erros
+mormot,1,sem latencia
+mormot,10,sem latencia
+mormot,20,sem latencia
+officefloor-netty,20,erros
+officefloor-spring_data,10,erros
+officefloor-spring_data,20,erros
+officefloor-thread_affinity,1,erros
+officefloor-thread_affinity,10,erros
+officefloor-thread_affinity,20,erros

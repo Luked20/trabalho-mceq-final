@@ -1,0 +1,31 @@
+framework,N,motivo
+http4k,1,erros
+http4k,10,erros
+http4k,20,erros
+http4k-graalvm,1,erros
+http4k-graalvm,10,erros
+http4k-graalvm,20,erros
+http4k-jetty,1,sem latencia
+http4k-jetty,10,sem latencia
+http4k-jetty,20,sem latencia
+http4k-sunhttploom,1,erros
+http4k-sunhttploom,10,erros
+http4k-sunhttploom,20,erros
+lithium,1,erros
+lithium,10,erros
+lithium,20,erros
+lithium-postgres,1,erros
+lithium-postgres,10,erros
+lithium-postgres,20,erros
+lithium-postgres-beta,1,erros
+lithium-postgres-beta,10,erros
+lithium-postgres-beta,20,erros
+mormot,1,sem latencia
+mormot,10,sem latencia
+mormot,20,sem latencia
+nextjs,1,erros
+nextjs,10,erros
+nextjs,20,erros
+officefloor-spring_data,20,erros
+officefloor-thread_affinity,1,erros
+officefloor-thread_affinity,10,erros
