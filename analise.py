@@ -74,12 +74,12 @@ def moderadora_friedman(df):
 def figura(df, res, caminho):
     sub = df[df["N"] == N_CONFIRMATORIO]
     d = np.sort((sub["lat_cache_ms"] - sub["lat_sem_cache_ms"]).to_numpy())
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 3.6))
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(4.5, 6.4))  # cabe numa coluna do artigo
     ax1.boxplot([sub["lat_sem_cache_ms"], sub["lat_cache_ms"]], showfliers=True)
     ax1.set_xticks([1, 2], ["Sem cache\n(Multiple queries)", "Com cache\n(Cached queries)"])
     ax1.set_yscale("log")
     ax1.set_ylabel("Latência média (ms, escala log)")
-    ax1.set_title(f"(a) Latência por condição, N={N_CONFIRMATORIO}, n={len(sub)}")
+    ax1.set_title(f"(a) Latência por condição, N={N_CONFIRMATORIO}, n={len(sub)}", fontsize=10)
     ax2.plot(d, np.arange(len(d)), "o", ms=3, color="tab:blue")
     lo, hi = res["ic95_media_D_ms_bootstrap"]
     ax2.axvline(0, color="black", lw=0.8)
@@ -87,8 +87,8 @@ def figura(df, res, caminho):
     ax2.axvspan(lo, hi, color="tab:red", alpha=0.2, label=f"IC95% [{lo:.1f}; {hi:.1f}]")
     ax2.set_xlabel("D = com cache − sem cache (ms)")
     ax2.set_ylabel("Frameworks (ordenados por D)")
-    ax2.set_title("(b) Diferença pareada por framework")
-    ax2.legend(fontsize=8, loc="lower right")
+    ax2.set_title("(b) Diferença pareada por framework", fontsize=10)
+    ax2.legend(fontsize=8, loc="upper left")
     fig.tight_layout()
     fig.savefig(caminho, dpi=200)
     plt.close(fig)

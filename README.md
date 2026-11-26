@@ -1,6 +1,6 @@
 # Cache em memória e latência de APIs web: análise do TechEmpower Round 23
 
-Projeto final de MCEQ 12576 (PUC-Campinas, 2º sem. 2026). Arthur Guarniz Castro Sebastian e Lucas Anelli Bissi.
+Projeto final de MCEQ 12576 (PUC-Campinas, 2º sem. 2026). Arthur Sebastian Guarniz de Castro e Lucas Anelli Bissi.
 
 **Pergunta:** em frameworks web que servem leituras de banco de dados, o cache em memória está associado a menor latência média por requisição do que a consulta direta ao banco? Estudo **observacional**, com desenho pareado por framework. O plano completo, registrado antes da análise, está em [PROTOCOLO.md](PROTOCOLO.md).
 
